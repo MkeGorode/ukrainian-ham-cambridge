@@ -1,0 +1,85 @@
+/* ==========================================================================
+   Ukrainian HAM Centre (Cambridge) - Three-Layer Design Tokens (design-system)
+   Layer 1: Primitive -> Layer 2: Semantic -> Layer 3: Component
+   ========================================================================== */
+:root {
+  /* Layer 1: Primitive Tokens */
+  --color-blue-950: #0B192E;
+  --color-blue-900: #10233E;
+  --color-blue-800: #132F5E;
+  --color-blue-700: #1D4991;
+  --color-blue-600: #2458AB;
+  --color-blue-500: #2E69C7;
+  --color-blue-100: #EBF2FC;
+  --color-blue-50:  #F4F8FD;
+
+  --color-yellow-400: #FBEB64;
+  --color-yellow-300: #FFF38A;
+  --color-gold-500:   #E4C93B;
+  --color-gold-600:   #CCAFA0;
+
+  --color-slate-900: #10233E;
+  --color-slate-700: #334763;
+  --color-slate-600: #4A5E7A;
+  --color-slate-300: #C6D6EC;
+  --color-slate-200: #DAE4F2;
+  --color-paper:     #F7FAFE;
+  --color-white:     #FFFFFF;
+  --color-green-700: #15803D;
+  --color-green-50:  #F0FDF4;
+
+  /* Typography Primitives */
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Lora', Georgia, Cambria, serif;
+  --base-font-size: 16px;
+
+  /* Spacing & Radius Primitives */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 9999px;
+
+  /* Layer 2: Semantic Tokens */
+  --surface-page: var(--color-paper);
+  --surface-card: var(--color-white);
+  --surface-subtle: var(--color-blue-50);
+  --surface-brand: var(--color-blue-600);
+  --surface-brand-deep: var(--color-blue-800);
+  --surface-accent-soft: var(--color-blue-100);
+
+  --text-primary: var(--color-slate-900);
+  --text-secondary: var(--color-slate-600);
+  --text-on-brand: var(--color-white);
+  --text-accent: var(--color-yellow-400);
+
+  --border-default: var(--color-slate-200);
+  --border-strong: var(--color-slate-300);
+
+  --shadow-sm: 0 4px 16px rgba(19, 47, 94, 0.05);
+  --shadow-md: 0 12px 32px rgba(19, 47, 94, 0.08);
+  --shadow-lg: 0 22px 48px rgba(11, 25, 46, 0.22);
+
+  /* Layer 3: Component Tokens */
+  --header-height: 86px;
+  --container-max: 1220px;
+  --touch-min: 44px;
+  --btn-donate-bg: var(--color-gold-500);
+  --btn-donate-hover: var(--color-yellow-400);
+  --btn-donate-text: var(--color-blue-900);
+}
+
+html.font-large {
+  --base-font-size: 18.5px;
+}
